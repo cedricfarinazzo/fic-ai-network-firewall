@@ -4,3 +4,4 @@ tensorflow
 Keras
 jupyter
 sklearn
+Pillow
