@@ -1,8 +1,9 @@
 # S2 - AI
 
+## Url path classfication
 Playbooks:
-- [Logistic regression](./logistic_regression.ipynb)
-- [Keras](./keras.ipynb)
+- [Logistic regression](./url_path_classification/logistic_regression.ipynb)
+- [Keras](./url_path_classification/keras.ipynb)
 
 
 ## Improvements
