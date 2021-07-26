@@ -5,6 +5,9 @@ Playbooks:
 - [Logistic regression](./url_path_classification/logistic_regression.ipynb)
 - [Keras](./url_path_classification/keras.ipynb)
 
+## Ethernet frame classfication
+Playbooks:
+- [Keras](./ethernet_frame_classification/keras.ipynb)
 
 ## Improvements
 
