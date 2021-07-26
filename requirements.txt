@@ -5,3 +5,5 @@ Keras
 jupyter
 sklearn
 Pillow
+pyshark
+nest_asyncio
