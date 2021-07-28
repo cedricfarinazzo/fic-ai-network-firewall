@@ -7,3 +7,4 @@ sklearn
 Pillow
 pyshark
 nest_asyncio
+ipython-autotime
