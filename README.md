@@ -8,12 +8,14 @@ Playbooks:
 ## Ethernet frame classfication
 Playbooks:
 - [Preprocessing](./ethernet_frame_classification/ethernet_frame_preprocessing.ipynb)
-- [Keras](./ethernet_frame_classification/Keras.ipynb)
+- [Keras-cnn-sigmoid](./ethernet_frame_classification/Keras-cnn-sigmoid.ipynb)
+- [Keras-cnn-binary](./ethernet_frame_classification/Keras-cnn-binary.ipynb)
+- [Keras-dense-flatten](./ethernet_frame_classification/Keras-dense-flatten.ipynb)
+- [Classification](./ethernet_frame_classification/Classification.ipynb)
+- [Dtree](./ethernet_frame_classification/dtree.ipynb)
+
 
 ## Improvements
 
 - dataset: TODO
-- neural net:
-    - add RNN layer ?
-    - continuous learning ?
 - live mode with pyshark ? (ban ip if the ethernet frame is suspicious ?)
