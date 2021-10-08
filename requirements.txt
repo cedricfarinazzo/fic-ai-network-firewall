@@ -8,3 +8,5 @@ Pillow
 pyshark
 nest_asyncio
 ipython-autotime
+xxhash
+tqdm
