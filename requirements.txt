@@ -10,3 +10,4 @@ nest_asyncio
 ipython-autotime
 xxhash
 tqdm
+pydot
