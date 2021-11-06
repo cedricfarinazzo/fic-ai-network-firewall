@@ -11,3 +11,5 @@ ipython-autotime
 xxhash
 tqdm
 pydot
+pyzipper
+requests
