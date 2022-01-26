@@ -220,3 +220,26 @@ The best algorithm is Decision Tree (Dtree)
 
 #### Dtree
 [Here](./ethernet_frame_classification/dtree.ipynb)
+
+In this playbook, we used the Decision Tree algorithm.
+Same results as before.
+
+
+## Ethernet frame classfication V2
+
+In this folder, we change the way how we loaded data: instead of loading everything at the beginning what required ~28Go of RAM, we tried to only load data chunks.
+Additionally, we increase the dataset size by adding good ethernet frame (not only HTTP requests).
+
+In order to only load data chunks, we preprocessed our dataset by storing every ethernet frame in a specific file. [Here](./ethernet_frame_classification_v2/preprocessing.ipynb)
+
+Unfortunately, our new loading method cannot work with Dtree... [Here](./ethernet_frame_classification_v2/dtree.ipynb)
+
+With Random Forest algorithm, we had an accuracy of 0.51 [Here](./ethernet_frame_classification_v2/random-forest.ipynb)
+
+With Keras, we were stuck with an accuracy of 0.4944140613079071 [Here](./ethernet_frame_classification_v2/keras.ipynb)
+
+In conclusion, it is very difficult to classify malicious and good Ethernet frames without filters on them.
+
+## Malware Detection
+
+This folder contains a script to download malwares from [https://abuse.ch/](https://abuse.ch/)
