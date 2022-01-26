@@ -16,6 +16,7 @@ Results with a logistic regression:
 Accuracy: 0.999371
 ```
 
+---
 ### Keras 
 [Here](./url_path_classification/keras.ipynb)
 
@@ -53,6 +54,7 @@ Results:
 Accuracy:  0.994346559047699
 ```
 
+---
 ## Ethernet frame classfication
 
 Detecting malicious ethernet frames
@@ -66,6 +68,7 @@ The dataset is composed of ethernet frames of HTTP requests. The url can be mali
 
 This playbook is a POC to convert ethernet frames to images and vice versa.
 
+---
 #### Keras CNN Sigmoid
 [Here](./ethernet_frame_classification/Keras-cnn-sigmoid.ipynb)
 
@@ -113,6 +116,7 @@ Results:
 Accuracy:  0.5096271634101868
 ```
 
+---
 #### Keras CNN Binary
 [Here](./ethernet_frame_classification/Keras-cnn-binary.ipynb)
 
@@ -162,6 +166,7 @@ Accuracy:  0.99707717
 
 We saved the model data [here](./ethernet_frame_classification/models/cnn-binary.h5)
 
+---
 #### Keras CNN Flatten
 [Here](./ethernet_frame_classification/Keras-dense-flatten.ipynb)
 
@@ -199,6 +204,7 @@ Results:
 Accuracy:  0.5116087198257446
 ```
 
+---
 #### Classification
 [Here](./ethernet_frame_classification/Classification.ipynb)
 
@@ -217,14 +223,14 @@ Results:
 
 The best algorithm is Decision Tree (Dtree)
 
-
+---
 #### Dtree
 [Here](./ethernet_frame_classification/dtree.ipynb)
 
 In this playbook, we used the Decision Tree algorithm.
 Same results as before.
 
-
+---
 ## Ethernet frame classfication V2
 
 In this folder, we change the way how we loaded data: instead of loading everything at the beginning what required ~28Go of RAM, we tried to only load data chunks.
@@ -240,6 +246,7 @@ With Keras, we were stuck with an accuracy of 0.4944140613079071 [Here](./ethern
 
 In conclusion, it is very difficult to classify malicious and good Ethernet frames without filters on them.
 
+---
 ## Malware Detection
 
 This folder contains a script to download malwares from [https://abuse.ch/](https://abuse.ch/)
